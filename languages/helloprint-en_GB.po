@@ -1,0 +1,615 @@
+# Copyright (C) 2022 Helloprint
+# This file is distributed under the same license as the Helloprint for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-09-13T14:14:14+00:00\n"
+"PO-Revision-Date: 2022-10-24 17:07+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Domain: helloprint\n"
+
+#. Plugin Name of the plugin
+msgid "HelloPrint"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 5
+msgid "File upload"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 9
+msgid "Product"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 10
+#. templates/admin/translator/helloprint-uploaded-file.php:line 2
+msgid "Files"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 45
+msgid "Uploaded Files"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 63
+msgid "Upload new file"
+msgstr ""
+
+#. templates/wp/product-file-upload.php:line 67
+msgid "Upload file"
+msgstr ""
+
+#. templates/wp/product-template.php:line 14
+msgid "CHOOSE YOUR OPTIONS"
+msgstr ""
+
+#. templates/wp/product-template.php:line 85
+msgid "Prices shown are per one design. For multiple designs, add multiple items to your cart. In order to keep our prices low, we offer standard quantities. Looking for a different quantity? Request a quote."
+msgstr ""
+
+#. templates/wp/product-template.php:line 90
+msgid "Show more"
+msgstr ""
+
+#. templates/wp/product-template.php:line 91
+msgid "Show less"
+msgstr ""
+
+#. templates/wp/product-template.php:line 94
+msgid "Delivery Time"
+msgstr ""
+
+#. templates/wp/product-template.php:line 105
+msgid "UPLOAD YOUR FILES"
+msgstr ""
+
+#. templates/wp/product-template.php:line 106
+msgid "Upload File(s)"
+msgstr ""
+
+#. templates/wp/product-template.php:line 114
+msgid "REVIEW & ADD TO CART"
+msgstr ""
+
+#. templates/wp/product-template.php:line 119
+msgid "Price Excluding Tax"
+msgstr ""
+
+#. templates/wp/product-template.php:line 129
+msgid "Price Including Tax"
+msgstr ""
+
+#. templates/wp/product-template.php:line 140
+msgid "Variant Key"
+msgstr ""
+
+#. templates/wp/product-template.php:line 149
+msgid "Without Margin"
+msgstr ""
+
+#. templates/admin/tabs/helloprint-product-panel.php:line 3
+msgid "Choose your product type"
+msgstr ""
+
+#. templates/admin/tabs/helloprint-product-panel.php:line 9
+msgid "Select Product"
+msgstr ""
+
+#. templates/admin/tabs/helloprint-product-panel.php:line 20
+msgid "Product margin (%)"
+msgstr ""
+
+#. templates/admin/translator/add.php:line 2
+msgid "New Translation"
+msgstr ""
+
+#. templates/admin/translator/add.php:line 11
+msgid "String"
+msgstr ""
+
+#. templates/admin/translator/add.php:line 22
+msgid "Translation"
+msgstr ""
+
+#. templates/admin/translator/add.php:line 32
+msgid "Add Translation"
+msgstr ""
+
+#. templates/admin/translator/edit.php:line 2
+msgid "Edit Translation"
+msgstr ""
+
+#. templates/admin/translator/edit.php:line 33
+msgid "Update"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 2
+msgid "Translations"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 8
+msgid "Search Translations"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 11
+msgid "Search Translation"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 22
+msgid "Translation added successfully"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 22
+msgid "Translation updated successfully"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 22
+msgid "Translation deleted successfully"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 28
+msgid "Loading..."
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 34
+msgid "#ID"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 37
+msgid "Action"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 48
+msgid "Are you sure, you want to delete ?"
+msgstr ""
+
+#. templates/admin/translator/lists.php:line 57
+msgid "items"
+msgstr ""
+
+#. templates/admin/translator/apikey-notice.php:line 4
+msgid "Please"
+msgstr ""
+
+#. templates/admin/translator/apikey-notice.php:line 4
+msgid "Add an API key"
+msgstr ""
+
+#. templates/admin/translator/apikey-notice.php:line 4
+msgid "to HelloPrint to get started using HelloPrint products"
+msgstr ""
+
+#. templates/admin/translator/dashboard.php:line 2
+msgid "Settings"
+msgstr ""
+
+#. templates/admin/translator/dashboard.php:line 8
+msgid "Save Changes"
+msgstr ""
+
+#. templates/admin/translator/dashboard.php:line 12
+msgid "Don't have your Api Keys?"
+msgstr ""
+
+#. templates/admin/translator/dashboard.php:line 12
+msgid "Click here"
+msgstr ""
+
+#. templates/admin/translator/dashboard.php:line 12
+msgid "to get one"
+msgstr ""
+
+#. templates/admin/translator/flash-message.php:line 3 & 6
+msgid "Dismiss this notice"
+msgstr ""
+
+#. templates/admin/translator/helloprint-uploaded-file.php:line 11
+msgid "Download"
+msgstr ""
+
+#. templates/admin/translator/helloprint-uploaded-file.php:line 12
+msgid "Remove"
+msgstr ""
+
+#. includes/Pages/Dashboard.php:line 85
+msgid "Delete"
+msgstr ""
+
+#. includes/Pages/Dashboard.php:line 138
+msgid "Api Key"
+msgstr ""
+
+#. includes/Pages/Dashboard.php:line 150
+msgid "Test Mode"
+msgstr ""
+
+#. includes/Pages/Dashboard.php:line 161
+msgid "Show Icons"
+msgstr ""
+
+#. includes/Pages/Dashboard.php:line 171
+msgid "Show Debugging"
+msgstr ""
+
+#. includes/Pages/LanguageTranslator.php:line 29
+msgid "Lists"
+msgstr ""
+
+#. includes/Pages/LanguageTranslator.php:line 39
+msgid "Language Translations"
+msgstr ""
+
+#. includes/Pages/LanguageTranslator.php:line 56
+msgid "New"
+msgstr ""
+
+#. includes/Pages/LanguageTranslator.php:line 64
+msgid "Edit"
+msgstr ""
+
+#. includes/Api/Callback/AdminCallback.php:line 23
+msgid "Server error! Request couldn\t be completed."
+msgstr ""
+
+#. includes/Api/Callback/AdminCallback.php:line 26
+msgid "Provided API key is incorrect."
+msgstr ""
+
+#. includes/Api/Callback/ManagerCallback.php:line 16
+msgid "Manage your settings here"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/CartController.php:line 44
+msgid "Please upload a valid file type for this product. Valid file types are: pdf, jpg, jpeg, png, tiff, tif"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/CheckoutController.php:line 29
+msgid "Delivery option"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 90
+msgid "HelloPrint Order Details"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 92 & 94
+msgid "Order Status"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 94
+msgid "FAILED TO CREATE ORDER"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 97
+msgid "Request ID"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 100
+msgid "Order ID"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 207
+msgid "Submit Order to Helloprint"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 261
+msgid "Items"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 263
+msgid "Item ID"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/OrderController.php:line 265
+msgid "Tracking Urls"
+msgstr ""
+
+#. includes/Base/Controllers/Admin/ProductController.php:line 51 & 58
+msgid "HelloPrint product"
+msgstr ""
+
+#. includes/Base/Enqueue.php:line 25
+msgid "Drag & Drop files here or click to browse"
+msgstr ""
+
+#
+msgid "Show Prices Incl Vat Only"
+msgstr ""
+
+#
+msgid "Add to cart"
+msgstr ""
+
+#
+msgid "Add to Bucket"
+msgstr ""
+
+#. templates/wp/product-file-upload:line 26
+msgid "Delivery Option"
+msgstr ""
+
+#
+msgid "Product Upload File"
+msgstr ""
+
+#
+msgid "Show upload on product and cart"
+msgstr ""
+
+#
+msgid "Show upload on cart only"
+msgstr ""
+
+#
+msgid "Show upload on product only"
+msgstr ""
+
+#
+msgid "No option for uploading"
+msgstr ""
+
+#
+msgid "Same as Global Setting"
+msgstr ""
+
+# includes/Services/HelloPrintApiService.php: line 287
+msgid "Day(s)"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 4
+msgid "All options cannot be empty and should be numeric value between 10 and 2000"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 6
+msgid "Or calculate a custom size"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 6
+msgid "Calculate a custom size"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 10
+msgid "Height"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 10
+msgid "Width"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 13
+msgid "Min 10 / Max 2000 cm"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 17
+msgid "Total"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 17
+msgid "m²"
+msgstr ""
+
+# templates/wp/inc/custom-size.php: line 19
+msgid "Confirm"
+msgstr ""
+
+# templates/wp/product-template.php: line 139
+msgid "Would you like us to design your artwork for this product?"
+msgstr ""
+
+# templates/wp/product-template.php: line 142
+msgid "Yes please"
+msgstr ""
+
+# templates/wp/product-template.php: line 147
+msgid "No thank you, i'll supply print ready artwork."
+msgstr ""
+
+# templates/admin/tabs/helloprint-product-panel.php: line 43
+msgid "Graphic Design Option"
+msgstr ""
+
+# templates/admin/tabs/helloprint-product-panel.php: line 45
+msgid "Enable"
+msgstr ""
+
+# templates/admin/tabs/helloprint-product-panel.php: line 46
+msgid "Disable"
+msgstr ""
+
+# templates/admin/tabs/helloprint-product-panel.php: line 59
+msgid "Graphic Design Price"
+msgstr ""
+
+# inc/Base/Controllers/Admin/CartController.php: line 104
+msgid "Want graphic design"
+msgstr ""
+
+# inc/Base/Controllers/Admin/CartController.php: line 104
+msgid "Graphic design price"
+msgstr ""
+
+msgid "Saver"
+msgstr "Economy"
+
+#
+msgid "Standard"
+msgstr "Standard"
+
+#
+msgid "Express"
+msgstr "Express"
+
+# templates/wp/product-template.php: line 181
+msgid "File Name"
+msgstr ""
+
+# templates/wp/product-template.php: line 182
+msgid "PDF"
+msgstr ""
+
+# templates/wp/product-template.php: line 183
+msgid "INDD"
+msgstr ""
+
+# templates/wp/product-template.php: line 211
+msgid "Template Not Found"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 2
+msgid "Select the quantity you need"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 8
+msgid "Sizes"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 10
+msgid "Quantity"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 12
+msgid "Men"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 13
+msgid "Women"
+msgstr ""
+
+#templates/wp/inc/size-selector.php: line 51
+msgid "You've chosen a non-standard quantity. Please choose any standard quantity."
+msgstr ""
+
+msgid "Min:"
+msgstr ""
+
+msgid "Max:"
+msgstr ""
+
+# templates/wp/inc/not-available: line 4
+msgid "Temporarily unavailable"
+msgstr ""
+
+# templates/wp/inc/not-available: line 7
+msgid "We're sorry, but this product is temporary unavailable to order.Please come back soon or contact our customer service."
+msgstr "We're sorry, but this product is temporary unavailable to order. Please come back soon or contact our customer service."
+
+#
+msgid "Global Design Fee"
+msgstr ""
+
+#
+msgid "Set Graphic Design Fee"
+msgstr ""
+
+#
+msgid "Set Product Margin"
+msgstr ""
+
+#
+msgid "Product Margin Option"
+msgstr ""
+
+#
+msgid "Graphic Design Fee"
+msgstr ""
+
+
+#
+msgid "Destination Country"
+msgstr ""
+
+#
+msgid "CHOOSE DELIVERY COUNTRY"
+msgstr ""
+
+#Add order preset section
+msgid "Add Print-on-Demand Preset"
+msgstr ""
+
+#
+msgid "Preset Name*"
+msgstr ""
+
+#
+msgid "Item SKU"
+msgstr ""
+
+#
+msgid "Helloprint Variant Key*"
+msgstr ""
+
+#
+msgid "Default Service Level"
+msgstr ""
+
+#
+msgid "Select Service Level"
+msgstr ""
+
+#
+msgid "Default Quantity"
+msgstr ""
+
+#
+msgid "Select Quantity"
+msgstr ""
+
+#
+msgid "Print File"
+msgstr ""
+
+#
+msgid "Save"
+msgstr ""
+
+#
+msgid "* required"
+msgstr ""
+
+#
+msgid "Edit Print-on-Demand Preset"
+msgstr ""
+
+#
+msgid "Order Presets"
+msgstr ""
+
+#
+msgid "Add Order Preset"
+msgstr ""
+
+#
+msgid "Search Order Preset"
+msgstr ""
+
+#
+msgid "Submit Via Helloprint Preset"
+msgstr ""
+
+#
+msgid "Select Order Preset"
+msgstr ""
+
+#
+msgid "Maximum file size is %s"
+msgstr ""
+
+#includes/services/HelloPrintApiService: line 662
+msgid "Validation Error: Required fields are missing"
+msgstr ""
+
+#
+msgid "Price"
+msgstr ""
+
+#
+msgid "Artworks Files"
+msgstr ""
+
+#
+msgid "Please ensure order has been recalculated prior to submitting."
+msgstr ""

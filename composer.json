@@ -1,0 +1,19 @@
+{
+    "name": "helloprint/helloprint",
+    "description": "This plugin adds printing functionality to the site.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [{
+        "name": "HelloPrint",
+        "email": "info@helloprint.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "HelloPrint\\Inc\\": "./includes"
+        },
+        "classmap": ["includes/"]
+    },
+    "require": {
+    }
+}

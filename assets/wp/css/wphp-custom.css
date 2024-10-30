@@ -1,0 +1,528 @@
+*[align="right"] {
+  text-align: right;
+}
+
+.wphp-flex{
+  display: flex !important;
+}
+
+.wphp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+  width: 100%;
+}
+
+.wphp-grid.wphp-grid-opt > div{
+  margin-top: 15px;
+}
+
+.wphp-product-cart {
+  margin-bottom: 40px;
+}
+
+.wphp-product-cart button{
+  margin-top: 25px !important;
+}
+.wphp-product-cart button.single_add_to_cart_button{
+  margin-bottom: 25px !important;
+}
+
+.wphp-product-cart hr {
+  margin: 25px 0;
+  color: #bcbcbc;
+  width: 100%;
+}
+
+.wphp-product-cart legend {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.wphp-width-100,
+.wphp-product-option-selector,
+.wphp-product-country-selector {
+  width: 100%;
+  float: left;
+}
+
+.wphp-display-none {
+  display: none !important;
+}
+
+.wphp-text-center {
+  text-align: center !important;
+  display: block;
+}
+
+.wphp_product_file_upload .uploaded-image {
+  min-width: 75px !important;
+  min-height: 75px !important;
+}
+
+.wphp_cart_item_upload {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wphp-pointer {
+  cursor: pointer;
+}
+
+.wphp-product-file-upload legend {
+  margin-bottom: 20px !important;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.wphp-product-file-upload .wphp-info-icon {
+  cursor: pointer;
+}
+
+/*Size Quantity Section -------------------------------------- */
+.wphp-size-quantity{
+  width: 100%;
+  /* color: #000000; */
+}
+.wphp-size-quantity input{
+  width: 100%;
+}
+.wphp-size-quantity .wphp-flex {
+  gap: 25px;
+}
+.wphp-size-quantity > div > .wphp-flex{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.wphp-size-quantity > div > .wphp-flex:last-child{
+  border: none !important;
+}
+.wphp-size-quantity > div > .wphp-flex > *:nth-child(1){
+  width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wphp-size-quantity > div > .wphp-flex > *:nth-child(2){
+  width: 42.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wphp-size-quantity > div > .wphp-flex > *:nth-child(3){
+  width: 42.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wphp-size-quantity .wphp-total{
+  margin-top: 15px;
+}
+.wphp-size-quantity .wphp-total .wphp-flex > *{
+  border: none;
+  padding: 0;
+}
+.wphp-size-quantity .wphp-total .wphp-flex > *:nth-child(1){
+  width: 27%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  white-space: nowrap;
+}
+.wphp-size-quantity .wphp-total .wphp-flex > *:nth-child(2){
+  width: max-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+}
+.wphp-size-quantity .wphp-total .wphp-flex > *:nth-child(3){
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+}
+
+/*Quantity Section -------------------------------------- */
+
+.wphp-quantity-sec p{
+  margin: 0;
+}
+.wphp-quantity-sec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.wphp-quantity-wrp {
+  margin-top: 15px;
+}
+.wphp-quantity-wrp.less .wphp-showless{
+    display: none !important;
+}
+.wphp-quantity-wrp.less .wphp-showmore{
+    display: block !important;
+}
+.wphp-quantity-wrp.less .wphp-quantity-grp{
+    overflow: hidden;
+}
+.wphp-quantity-wrp.more .wphp-showless{
+    display: block !important;
+}
+.wphp-quantity-wrp.more .wphp-showmore{
+    display: none !important;
+}
+.wphp-quantity-wrp.more .wphp-quantity-grp{
+    overflow: none;
+    max-height: auto;
+}
+.wphp-quantity-wrp a {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+.wphp-quantity-grp > div {
+  display: flex;
+  align-items: center;
+}
+.wphp-quantity-grp label{
+  margin: 0 auto 0 8px !important;
+}
+@media(min-width: 768px) {
+  .wphp-quantity-grp {
+    column-count: 2;
+    column-gap: 48px;
+  }
+}
+
+/* Size Section --------------------------------- */
+.wphp-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  
+}
+@media(max-width: 767px) {
+  .wphp-grids{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 1200px) {
+  .wphp-grids{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.wphp-size-sec{
+  margin-top: 20px;
+}
+.wphp-size-sec a.wphp-size{
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid #e2e2e2;
+  color: inherit;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.wphp-size-sec a.wphp-size.selected{
+  border-color: inherit;
+}
+.wphp-size-sec .wphp-size p{
+  margin: 0;
+  text-align: center;
+}
+.wphp-size-sec .wphp-size img{
+    margin: auto;
+    display: block;
+}
+.wphp-size-sec .wphp-size input{
+    position: absolute !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.wphp-color-sec,
+.wphp-print-position-sec{
+  margin-top: 20px;
+}
+.wphp-color-sec a.wphp-color,
+.wphp-print-position-sec a.wphp-print-position{
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid #e2e2e2;
+  color: inherit;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.wphp-color-sec a.wphp-color.selected,
+.wphp-print-position-sec a.wphp-print-position.selected{
+  border-color: inherit;
+}
+.wphp-color-sec .wphp-color p,
+.wphp-print-position-sec .wphp-print-position p{
+  margin: 0;
+  text-align: center;
+}
+.wphp-color-sec .wphp-color img,
+.wphp-print-position-sec .wphp-print-position img{
+    margin: auto;
+    display: block;
+}
+.wphp-color-sec .wphp-color input,
+.wphp-print-position-sec .wphp-print-position input{
+    position: absolute !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.wphp-loader img{
+  margin: auto;
+  width: 85px;
+  display: block;
+}
+
+.wphp-pricing-table-loader img{
+  margin: auto;
+  width: 85px;
+  display: block;
+}
+
+/* Upload modal */
+
+.wphp-modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+
+  display: none; 
+  justify-content: center;
+  align-items: center;
+}
+
+.wphp-modal-container.wphp-show-modal {
+  display: flex;
+}
+
+.wphp-modal {
+  background: #fff;
+  width: 40%;
+  min-width: 600px;
+  padding: 15px;
+  position: relative;
+
+  border-radius: 10px;
+
+}
+.wphp-modal .wphp-template-table {
+  font-size: 13px;
+  margin: 0;
+  width: 100%;
+  color: #444;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wphp-modal .wphp-template-table .wphp-cta-head {
+  font-size: 14px;
+  color: #104672;
+  font-weight: 600;
+}
+.wphp-modal .wphp-template-table .wphp-cta-item:hover {
+  background: #eff7ff;
+}
+.wphp-modal .wphp-template-table .wphp-cta-item:hover td a {
+  color: #104672;
+}
+.wphp-modal .wphp-template-table td a:hover {
+  text-decoration: underline;
+}
+.wphp-modal .wphp-template-table .wphp-format-main {
+  width: 50%;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+.wphp-modal .wphp-template-table  tr td {
+  padding: 4px 0;
+  line-height: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+}
+.wphp-modal .wphp-template-table tr td:first-child{
+  text-align: left;
+}
+.wphp-modal .wphp-template-table .wphp-cta-pdf , .wphp-modal .wphp-template-table .wphp-cta-indesign {
+  width: 25%;
+}
+.wphp-modal .wphp-template-table a {
+  text-decoration: none;
+  color: #c6c6c6;
+}
+
+.wphp-modal .wphp-template-table  .wphp-cta-item .wphp-cta-pdf a {
+  background: url(../../../templates/images/icons.png) no-repeat;
+  height: 20px;
+  padding: 0 0 0 25px;
+  display: inline-block;
+}
+.wphp-modal .wphp-template-table  .wphp-cta-item .wphp-cta-indesign a {
+  background: url(../../../templates/images/icons.png) no-repeat 0 -20px;
+  height: 20px;
+  padding: 0 0 0 27px;
+  display: inline-block;
+}
+
+
+@keyframes wphp-modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.wphp-show-modal .wphp-modal {
+  animation: wphp-modal .3s;
+}
+.wphp-modal-container .wphp-modal .wphp-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px!important;
+
+  border: none;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 768px){
+  .wphp-modal {
+    min-width: min-content;
+    height: 80%;
+    overflow: auto;
+  }
+  .wphp-modal .wphp-template-table .wphp-cta-indesign span {
+    display: none;
+  }
+  .wphp-modal-container .wphp-modal .wphp-close-button {
+    top: -10px;
+    right: -6px;
+  }
+}
+
+/* Scroll modify */
+#wphp-scrollend-size,
+#wphp-scrollend-color,
+#wphp-scrollend-printposition {
+  scroll-margin: 100px;
+}
+
+/* Filepond plugin css override */
+.filepond--pdf-preview-wrapper:before {
+    height: 4.5em !important;
+    background: -webkit-gradient(linear,left top, left bottom,color-stop(40%, #359361),to(transparent)) !important;
+    background: -o-linear-gradient(top,#359361 40%,transparent 100%) !important;
+    background: linear-gradient(180deg,#359361 40%,transparent 100%) !important;
+}
+
+.filepond--file .filepond--file-status-sub{
+  color: #000;
+}
+/* Bugfix - Extra divider on artwork section */
+div.wphp-size-quantity + div.wphp-add-design hr:first-of-type {
+  display: none;
+}
+/* Bugfix - Helloprint design linebrak */
+.wphp_design,
+[for="wphp_design"]{
+  display: inline !important;
+}
+
+input.wphp_product_options{
+  width: 100%;
+}
+
+.wphp-product-file-upload #pp_customize_design_btn {
+  width: 100%;
+}
+.wphp-product-file-upload #pp_main_btn_sec {
+  margin-top: 15px;
+}
+
+@keyframes wphp--spinner-anime {
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+.wphp-spinner {
+  display: inline-block;
+  margin-left: 0.5rem;
+  box-sizing: content-box;
+}
+.wphp-spinner:after {
+  content: " ";
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 4px #ddd solid;
+  border-top: 4px #2e93e6 solid;
+  animation: wphp--spinner-anime .8s linear infinite;
+}
+
+.wphp-combination-not-found-message {
+  color: rgb(210, 31, 31)
+}
+
+.wphp-order-details-upload-artwork-section {
+  display: block !important;
+}
+
+.wphp-order-details-delete-artwork {
+  display: inline !important;
+  margin-left: 5px;
+}

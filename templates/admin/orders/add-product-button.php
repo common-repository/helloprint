@@ -1,0 +1,1 @@
+<button type="button" class="button add-wphp-product-to-order-item"><?php echo wp_kses(_translate_helloprint('Add Helloprint product', 'helloprint'), true); ?></button>

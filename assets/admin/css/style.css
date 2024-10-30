@@ -1,0 +1,380 @@
+#helloprint_product_options{
+    padding-left: 10px;
+}
+.btn-outline-danger:hover {
+    color: #a00;
+}
+
+.btn-outline-danger {
+    color: #b32d2e;
+}
+
+.text-danger {
+    color: #a00;
+}
+/* Edit Preset page Fixes ----------------------------------- */
+/*.wphp-preset-file-uplaoder,
+.wphp-preset-file-uplaoder-btn{
+    display: none;
+}*/
+table[role="presentation"] .wphp-order-preset-file-upload {
+    max-width: 350px;
+}
+table[role="presentation"] .wphp-order-preset-file-upload  .filepond--drop-label {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 18px;
+}
+
+/* Edit Order page Fixes ----------------------------------- */
+.wphp-single-preset-file {
+    margin-bottom: 15px;
+}
+.wphp-order-item-preset-div table,
+.wphp-single-order-item-file table {
+    width: 100%;
+    max-width: 845px;
+}
+.wphp-order-item-preset-div table tr:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ebe9e9;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+.wphp-order-item-preset-div table tr:first-of-type td {
+    width: max-content;
+    border-bottom: none !important;
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+}
+.wphp-order-item-preset-div table tr:first-of-type td:first-of-type {
+    padding-left: 14px !important;
+    margin-right: auto;
+}
+
+.text-info {
+    color: #5139af;
+}
+
+.text-success {
+    color: #258d18eb;
+}
+
+/* Product Select2 width fix for WP block editor --------------------------------  */
+#helloprint_product_options .helloprint_external_product_id_field .select2-container{
+    width: 50% !important;
+}
+@media(max-width: 1280px) {
+    #helloprint_product_options .helloprint_external_product_id_field .select2-container{
+        width: 80% !important;
+    }
+}
+/* Page Bulk Product styles fix ------------------------ */
+#tbl-bulk-product-list_wrapper .dataTables_length select {
+    padding-left: 8px !important;
+    padding-right: 24px !important;
+}
+
+#tbl-bulk-product-list_wrapper svg.bi.bi-check {
+    position: relative;
+    top: 7px;
+}
+#tbl-bulk-product-list_wrapper div#tbl-bulk-product-list_paginate {
+    padding-top: 10px;
+}
+.wphp-bulk-wrap .dataTables_wrapper .dataTables_filter input {
+    margin-left: 10px;
+    height: 30px;
+}
+.wphp-bulk-wrap select[name="tbl-bulk-product-list_length"]{
+    line-height: 1 !important;
+}
+.wphp-bulk-wrap div#tbl-bulk-product-list_length,
+.wphp-bulk-wrap div#tbl-bulk-product-list_filter {
+    margin-bottom: 8px;
+}
+.wphp-bulk-wrap .search-box > label{
+    margin-right: 7px;
+}
+/* Bulk product modal ---------------*/
+#wphp-category-modal .modal-dialog{
+    width: 450px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+#wphp-category-modal .wc-radios{
+    padding: 0 !important;
+}
+#wphp-category-modal .wphp-modal-label{
+    font-weight: 700;
+}
+
+#wphp-wocommerce-category ~ .select2-container{
+    width: 95% !important;
+}
+#wphp-modal-submit-bulk-import-product{
+    position: relative;
+    outline: none !important;
+}
+/* Submit Spinner ---------------------------------------------------*/
+.wphp-spin {
+  padding-left: 2.65em !important;
+  transition: all 1s;
+}
+.wphp-spin .wphp-spinner {
+  left: -.6em;
+  top: .4em;
+  width: 2.5em;
+  display: block;
+  position: absolute;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.wphp-spin .wphp-spinner::before {
+  content: "";
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: solid .35em #999;
+  border-bottom-color: #555;
+  animation: .8s linear infinite spinner;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
+.optionGroup {
+    font-weight: bold;
+}
+
+/* The Modal (background) */
+.wphp-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9991; /* Sit on top */
+  /* padding-bottom: 100px;  */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.wphp-modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  top: 100px;
+  bottom: 100px; 
+  position: relative;
+}
+
+/* The Close Button */
+.wphp-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.wphp-close:hover,
+.wphp-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wphp-modal-body .select2, .wphp-modal-body select{
+  width:100% !important;
+}
+
+.wphp-modal-body label{
+  display:inline-block;
+  margin-top: 20px;
+  width: 150px;
+}
+.wphp-modal-content .button-large {
+  margin-top: 10px;
+}
+.wphp-order-service-quantity{
+  display:none;
+}
+.wphp-admin-offer-price{
+  margin:10px 0;
+}
+#wphp-add-product-to-order-btn{
+  margin-left: auto;
+  display: flex;
+}
+
+.wphp-product-select-for-order .add-wphp-product-item_field{
+  width: 100% !important;
+}
+.wphp-modal-content  #helloprint_product_prices{
+  display: inline-block;
+}
+
+.wphp-modal-body  .add-wphp-product-item_field label,.wphp-modal-body .wphp-custom-size label{
+  margin-top: 0;
+}
+
+
+.wphp-modal-body h3, .wphp-modal-body .wphp-product-custom-size{
+  display:inline-block;
+  margin-top: 20px;
+}
+
+.wphp-modal-body .wphp-custom-size input{
+  margin-bottom: 5px;
+}
+
+.wphp-order-item-preset-div table tbody tr td {
+    width:  100%;
+}
+
+.wphp-order-item-preset-div table tbody tr td .wphp-select2-div .select2-container{
+    width: 100% !important;
+    min-width: 160px;
+}
+
+.wphp-full-width-input {
+    width:  100%;
+}
+
+.wphp-clicked-not-allowed {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.wphp-modal-body #wphp-min_max_message_div{
+  color: red;
+}
+
+.wphp-display-none{
+  display: none;
+}
+
+#wphp-appreal-size-nonstandard-error{
+  margin-bottom: 2.617924em;
+  background-color: #e2401c;
+  margin-left: 0;
+  border-radius: 2px;
+  color: #fff;
+  clear: both;
+  border-left: 0.6180469716em solid rgba(0,0,0,.15);
+  padding: 1em 2em 1em 3.5em;
+  position: relative;
+  list-style: none outside;
+}
+
+.select2-dropdown {
+    z-index: 1060 !important;
+}
+
+.wphp-has-tooltip{
+    position: relative;
+}
+.wphp-tooltip-text {
+    color: #000;
+    position: absolute;
+    z-index: 1;
+    left: -50px;
+    top: 0px;
+}
+.dashicons-info {
+    cursor: pointer;
+    color: #333536;
+}
+.wphp-tooltip-text .wphp-tooltiptext {
+    display: none;
+}
+.dashicons-info:hover + .wphp-tooltiptext {
+    display: block;
+    background-color: #fff;
+    color: #3c3a3a;
+    width: 100%;
+    position: relative;
+    top: -53px;
+    padding: 4px 0px 4px 7px;
+    font-size: 12px;
+    border: 1px solid;
+}
+
+/* progress bar */
+.wphp-progress {
+  border: 1px solid #B0B0B0;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #B0B0;
+  backdrop-filter: blur(2px) brightness(101%);
+}
+
+.wphp-bar {
+  width: 0%;
+  background: #0690D1;
+  box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+  border-radius: 3px;
+  color: #055160;
+  text-align: center;
+}
+
+.wphp-bar.hp-bar-success {
+  background: forestgreen;
+  color: #053f16;
+}
+
+/* button group */
+.wphp-input-group{
+  display: table;
+  border-collapse: collapse;
+}
+.wphp-input-group > div{
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;  /* needed for Safari */
+}
+.wphp-input-group-icon{
+  background:#eee;
+  color: #777;
+  padding: 0 12px
+}
+.wphp-input-group input{
+  border: 0;
+}
+.hp-add-scaled-price-btn {
+  float: right;
+}
+.hp-remove-single-scale-div {
+  width: 100px;
+}
+.hp-default-markup-text {
+  width: 22em;
+}
+
+.helloprint_user_roles_for_price_field span.select2-container, .helloprint_pricing_tier_field  span.select2-container, .helloprint_product_margin_option_field span.select2-container {
+  width: 50% !important;
+}
+
+.wphp-inline-radio-class ul.wc-radios li {
+  display: inline !important;
+}
+
+.helloprint_user_roles_for_price_markup_field span.select2-container, .helloprint_pricing_tier_markup_field span.select2-container, .helloprint_product_markup_option_field span.select2-container {
+  width: 50% !important;
+}
